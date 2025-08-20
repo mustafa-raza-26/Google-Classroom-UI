@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Classroom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+</head>
+<body>
+
+    <header>
+        <div class="container-fluid d-flex">
+            <div class=" col-6 col-md-3 d-flex">
+            <button class="menu"><img src="img/menu.svg" alt=""></button>
+            <div class="navbar-brand"><a href="#"><img src="img/logo.png" width="30" height="24"> Classroom</a></div>
+            </div>
+            <div class="n2 col-6 col-md-9 justify-content-end d-flex">
+            <button class="use" onclick="show()"><img src="img/add.svg" alt=""></button>
+            <button class="use"><img src="img/apps.svg" alt=""></button>
+            <div class="id"><img src="img/mustafa.jpg" alt="" width="40px" height="43px"></div>
+            </div>
+        </div>
+    </header>
+
+    <div class="part1 container-fluid">
+        <div class="row d-flex">
+            <div class="list col-11 col-md-3 bg-body-tertiary">
+                <div class="features ff"><img src="img/home.svg" alt=""><span>Home</span></div>
+                <div class="features"><img src="img/calender.svg" alt=""><span>Calendar</span></div><br>
+                <div class="features"><img src="img/group.svg" alt=""><span>Teaching</span></div>
+                <div class="features"><img src="img/school.svg" alt=""><span>Enrollment</span></div>
+                <div class="features"><img src="img/two_pager.svg" alt=""><span>To-do</span></div>
+            </div>
+
+            <div class="card_area col-12 col-md-9" id="card_display">
+
+                    <div id="forms">
+                        <label>Class Name: <br><input type="text" id="name" placeholder="Class name*" required></label><br>
+                        <label>Subject: <br><input type="text" id="subject" placeholder="Subject" required></label><br>
+                        <label>Teacher Name: <br><input type="text" id="teacher" placeholder="Teacher" required></label><br>
+                        <button onclick="cancel()">Cancel</button>
+                        <button onclick="create()">Create</button>
+                    </div>
+                    
+                    <div id="show"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>

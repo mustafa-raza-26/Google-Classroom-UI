@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 10px;
+    background: #f0f0f0;
+}
+div>.navbar-brand{
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.n2>button{
+    margin-right: 6px;
+}
+.navbar-brand>a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+}
+.id>img{
+    border-radius: 25px;
+}
+.menu{
+    margin-right: 10px;
+    border: 0px solid;
+}
+.use{
+    border: 0px solid;
+}
+.row{
+    padding-top: 5px;
+}
+.row>.list{
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+.list>.features{
+    padding: 8px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 400;
+}
+.list>.features:hover{
+    background-color: rgb(198, 198, 198);
+}
+.ff{
+    background-color: rgb(107, 205, 248);
+}
+.ff:hover{
+    background-color: rgb(107, 205, 248);
+}
+.list>.features>span{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.card_area{
+    padding: 20px;
+}
+#forms{ 
+    padding: 20px;
+    width: 255px;
+    background-color: rgb(235, 235, 235);
+    display: none;
+    position: absolute;
+}
+label>input{
+    padding: 8px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border: 1px solid rgb(205, 204, 204);
+}
+#forms>button{
+    padding: 8px;
+    border: 1px solid rgb(205, 204, 204);
+}
+#show{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.box{
+    height: auto;
+    width: 350px;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding-bottom: 0px;
+    border-radius: 12px;
+    border: 2px solid black;
+} 
+.box>img{
+    width: 346px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+}
+.box>.text{
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif ;
+    padding: 10px;
+}
