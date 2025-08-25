@@ -26,7 +26,7 @@
 
     <div class="part1 container-fluid">
         <div class="row d-flex">
-            <div class="list col-11 col-md-3 bg-body-tertiary">
+            <div id="list" class="list col-11 col-md-3 bg-body-tertiary">
                 <div class="features ff"><img src="img/home.svg" alt=""><span>Home</span></div>
                 <div class="features"><img src="img/calender.svg" alt=""><span>Calendar</span></div><br>
                 <div class="features"><img src="img/group.svg" alt=""><span>Teaching</span></div>
@@ -38,6 +38,7 @@
 
                     <div id="forms">
                         <label>Class Name: <br><input type="text" id="name" placeholder="Class name*" required></label><br>
+                        <label>Section: <br><input type="text" id="section" placeholder="Section" required></label><br>
                         <label>Subject: <br><input type="text" id="subject" placeholder="Subject" required></label><br>
                         <label>Teacher Name: <br><input type="text" id="teacher" placeholder="Teacher" required></label><br>
                         <button onclick="cancel()">Cancel</button>
