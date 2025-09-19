@@ -64,10 +64,13 @@ div>.navbar-brand{
     padding: 20px;
 }
 #forms{ 
+    margin-top: 20px;
+    margin-left: 290px;
     padding: 20px;
     width: 255px;
     background-color: rgb(235, 235, 235);
     display: none;
+    z-index: 10;
     position: absolute;
 }
 label>input{
@@ -89,7 +92,7 @@ label>input{
 }
 .box{
     width: 350px;
-    height: 300px;
+    height: 350px;
     margin-top: 20px;
     margin-right: 20px;
     padding-bottom: 0px;
@@ -98,8 +101,8 @@ label>input{
 } 
 .box>img{
     width: 348.9px;
-    height: 160px;
-    position: fixed;
+    height: 180px;
+    position: absolute;
     border-top-right-radius: 12px;
     border-top-left-radius: 12px;
     margin-bottom: 5px;
