@@ -107,7 +107,7 @@ label>input{
     border-top-left-radius: 12px;
     margin-bottom: 5px;
 }
-@media (max-width : 320px) {
+@media (max-width : 375px) {
     .box>img{
         width: 255px;
     }
